@@ -10,10 +10,6 @@ This repository contains a simple digital library management system. This system
 2. Change directory into the main directory `library-kata`
 3. Run the command `dotnet build`
 
-## How to Use the Application
-1. Change directory into the library directory using `cd .\library-kata`
-2. Run the command `dotnet run`
-
 ## How to Use The Application Programmatically
 1. Change directory into the library directory using `cd .\library-kata`
 2. Alter the Program.cs file to run how you want it to run. 
