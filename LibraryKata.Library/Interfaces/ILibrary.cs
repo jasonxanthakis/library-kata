@@ -7,8 +7,8 @@ namespace LibraryKata.Library.Interfaces
 
         void AddBook(IBook book);
         void RemoveBook(IBook book);
-        List<IBook> GetBookByAuthor(string Author);
-        List<IBook> GetBookByTitle(string title);
+        IEnumerable<IBook> GetBookByAuthor(string Author);
+        IEnumerable<IBook> GetBookByTitle(string title);
         List<IBook> GetAllBooks();
 
         void AddPatron(IPatron patron);
