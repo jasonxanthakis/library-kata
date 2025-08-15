@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LibraryKata.Library")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f68dabfc37883d270d8f59b1904ee4ff0262ea97")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7b2d34c2dd60083d79349c494b6b49781ef6244")]
 [assembly: System.Reflection.AssemblyProductAttribute("LibraryKata.Library")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LibraryKata.Library")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

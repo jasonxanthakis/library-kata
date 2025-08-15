@@ -31,11 +31,26 @@ class Program
         lib.AddPatron(patron4);
 
         System.Console.WriteLine(lib.GetAllBooks());
+        System.Console.WriteLine();
 
         lib.RemoveBook(book5);
         lib.RemoveBook(book6);
         lib.RemovePatron(patron4);
 
+        System.Console.WriteLine(lib.GetAllBooks());
+        System.Console.WriteLine();
 
+        System.Console.WriteLine(lib.GetBookByAuthor("J. R. R. Tolkien"));
+        System.Console.WriteLine();
+
+        if (book1 == lib.GetBookByTitle("Harry Potter")) System.Console.WriteLine("Found the book");
+        if (patron1 == lib.GetBookByTitle("NPC 1")) System.Console.WriteLine("Found the patron");
+        System.Console.WriteLine();
+
+        lib.BorrowBook(patron1, book2);
+        lib.BorrowBook(patron1, book3);
+
+        lib.ReturnBook(patron1, book2);
+        lib.ReturnBook(patron1, book1);
     }
 }
