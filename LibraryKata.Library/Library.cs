@@ -42,13 +42,13 @@ namespace LibraryKata.Library
         {
             return this.Books.Where(b => b.Author == Author);
         }
-        public IBook GetBookByTitle(string title)
+        public IBook? GetBookByTitle(string title)
         {
-            return this.Books.Where(b => b.Title == title).First();
+            return this.Books.Where(b => b.Title == title).FirstOrDefault();
         }
-        public IPatron GetPatronByName(string name)
+        public IPatron? GetPatronByName(string name)
         {
-            return this.Patrons.Where(b => b.Name == name).First();
+            return this.Patrons.Where(b => b.Name == name).FirstOrDefault();
         }
         public List<IBook> GetAllBooks()
         {
