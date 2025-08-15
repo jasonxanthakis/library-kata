@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        var lib = new Library();
+        var lib = new LibraryApp();
         lib.AddBook(new Book("Harry Potter", "J. K. Rowling"));
         lib.AddBook(new Book("The Hobbit", "J. R. R. Tolkien"));
         lib.AddBook(new Book("The Lord of the Rings", "J. R. R. Tolkien"));

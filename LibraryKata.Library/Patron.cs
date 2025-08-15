@@ -15,7 +15,7 @@ namespace LibraryKata.Library
 
         public void BorrowBook(IBook book)
         {
-            if (BorrowedBooks.Contains(book))
+            if (IsBookInList(book))
             {
                 System.Console.WriteLine($"Patron {this.Name} has already borrowed this book.");
             }
@@ -38,7 +38,7 @@ namespace LibraryKata.Library
 
         public void ReturnBook(IBook book)
         {
-            if (!BorrowedBooks.Contains(book))
+            if (!IsBookInList(book))
             {
                 System.Console.WriteLine($"Patron {this.Name} never borrowed this book.");
             }
@@ -53,6 +53,18 @@ namespace LibraryKata.Library
                     System.Console.WriteLine($"Patron {this.Name} returned book {book.Title}.");
                 }
             }
+        }
+
+        private bool IsBookInList(IBook book)
+        {
+            if (this.BorrowedBooks.Count == 0) return false;
+
+            foreach (var borrowed in this.BorrowedBooks)
+            {
+                if (borrowed.Title == book.Title) return true;
+            }
+
+            return false;
         }
     }
 }
