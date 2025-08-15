@@ -6,7 +6,7 @@ namespace LibraryKata.Library.Interfaces
         string Author { get; }
         bool IsAvailable { get; }
 
-        void Borrow();
-        void Return();
+        bool Borrow();
+        bool Return();
     }
 }

@@ -1,0 +1,15 @@
+D:\repos\LaFosseAcademy\DeepDive\Test2\library-kata\LibraryKata.Library\bin\Debug\net9.0\LibraryKata.Library.exe
+D:\repos\LaFosseAcademy\DeepDive\Test2\library-kata\LibraryKata.Library\bin\Debug\net9.0\LibraryKata.Library.deps.json
+D:\repos\LaFosseAcademy\DeepDive\Test2\library-kata\LibraryKata.Library\bin\Debug\net9.0\LibraryKata.Library.runtimeconfig.json
+D:\repos\LaFosseAcademy\DeepDive\Test2\library-kata\LibraryKata.Library\bin\Debug\net9.0\LibraryKata.Library.dll
+D:\repos\LaFosseAcademy\DeepDive\Test2\library-kata\LibraryKata.Library\bin\Debug\net9.0\LibraryKata.Library.pdb
+D:\repos\LaFosseAcademy\DeepDive\Test2\library-kata\LibraryKata.Library\obj\Debug\net9.0\LibraryKata.Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\LaFosseAcademy\DeepDive\Test2\library-kata\LibraryKata.Library\obj\Debug\net9.0\LibraryKata.Library.AssemblyInfoInputs.cache
+D:\repos\LaFosseAcademy\DeepDive\Test2\library-kata\LibraryKata.Library\obj\Debug\net9.0\LibraryKata.Library.AssemblyInfo.cs
+D:\repos\LaFosseAcademy\DeepDive\Test2\library-kata\LibraryKata.Library\obj\Debug\net9.0\LibraryKata.Library.csproj.CoreCompileInputs.cache
+D:\repos\LaFosseAcademy\DeepDive\Test2\library-kata\LibraryKata.Library\obj\Debug\net9.0\LibraryKata.Library.sourcelink.json
+D:\repos\LaFosseAcademy\DeepDive\Test2\library-kata\LibraryKata.Library\obj\Debug\net9.0\LibraryKata.Library.dll
+D:\repos\LaFosseAcademy\DeepDive\Test2\library-kata\LibraryKata.Library\obj\Debug\net9.0\refint\LibraryKata.Library.dll
+D:\repos\LaFosseAcademy\DeepDive\Test2\library-kata\LibraryKata.Library\obj\Debug\net9.0\LibraryKata.Library.pdb
+D:\repos\LaFosseAcademy\DeepDive\Test2\library-kata\LibraryKata.Library\obj\Debug\net9.0\LibraryKata.Library.genruntimeconfig.cache
+D:\repos\LaFosseAcademy\DeepDive\Test2\library-kata\LibraryKata.Library\obj\Debug\net9.0\ref\LibraryKata.Library.dll

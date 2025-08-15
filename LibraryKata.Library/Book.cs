@@ -15,14 +15,20 @@ namespace LibraryKata.Library
             this.IsAvailable = true;
         }
 
-        public void Borrow()
+        public bool Borrow()
         {
+            if (!this.IsAvailable) return false;
 
+            this.IsAvailable = false;
+            return true;
         }
 
-        public void Return()
+        public bool Return()
         {
-            
+            if (this.IsAvailable) return false;
+
+            this.IsAvailable = true;
+            return true;
         }
     }
 }
